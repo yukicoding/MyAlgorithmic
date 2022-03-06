@@ -19,7 +19,7 @@
 
 class Solution {
     public int minArray(int[] numbers) {
-        //对数组进行索引取值用二分法
+        //对数组进行索引取值用二分法1
         int left = 0;
         int right = numbers.length-1;
         while(left<right){
